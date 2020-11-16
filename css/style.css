@@ -120,7 +120,7 @@ header{
 }
 
 .slider-font{
-  font-size: 86px; font-family: Sora-SB; font-weight: 700; margin-bottom: 40px; line-height: 94px; 
+  font-size: 64px; font-family: Sora; font-weight: normal; margin-bottom: 0px; line-height: 74px; 
 }
 .nav-tabs{
   overflow-x: auto;
@@ -489,6 +489,9 @@ header{
   .agencybg{
     background-image: unset;
   }
+  .agencybg div{
+    text-align: left !important;
+  }
   .agencycard{
    padding: 30px; margin: 20px 0px; padding-bottom: 70px;
   }
@@ -534,7 +537,7 @@ header{
     align-items: center;
   }
   .slider-font{
-    font-size: 50px; line-height: 66px;
+    font-size: 50px; line-height: 66px;  margin-bottom: 30px; 
   }
   .center{
     text-align: center;
